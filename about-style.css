@@ -1,0 +1,151 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1%;
+    background-color: #e70e0e; 
+}
+
+.head_photo {
+    margin-right: 15px;
+}
+
+.logo {
+    padding-right: 2%;
+    height: auto;
+    padding-top: 0%;
+    padding-left: 50px;
+    margin-right: 20px;
+    width: 30%;
+    max-width: 300%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navigational-container {
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 1%;
+    padding-top: 5%;
+    display: flex;
+    vertical-align: bottom;
+    padding-right: 150px;
+}
+
+.textinnavlinks {
+    color: #070000;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav ul li {
+    margin-right: 15px;
+    vertical-align: bottom;
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+    text-decoration-color: #f7f7f7;
+}
+
+
+.welcome {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    padding-top: 1%;
+    padding-left: 12%;
+    padding-bottom: 0%;
+    background-color: #f7f7f7; 
+}
+
+.welcomelogo {
+    margin-right: 20px;
+    width: 10%;
+    height: auto;
+    break-inside: auto;
+    padding-right: 1%;
+}
+
+.welcometext {
+    max-width: 190%;
+    margin-right: 30%;
+}
+
+.team-section {
+    background-color: #f7f7f7;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.team-member {
+    max-width: 30%; 
+    margin-bottom: 20px;
+}
+
+.values-section {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #e70e0e; 
+}
+
+.values-section h2 {
+    color: #fff; 
+}
+
+.values-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.values-section li {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    background-color: #e70e0e; 
+}
+
+.footer-text {
+    padding: 2%;
+    color: #fff; 
+}
+
+.team-section h1
+{
+    text-align: center;
+}
+
+.team{
+    align-content: center;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 100%; 
+}

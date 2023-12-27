@@ -1,0 +1,398 @@
+.logo {
+  padding-right: 2%;
+  height: auto;
+  padding-top: 0%;
+  padding-left: 50px;
+  margin-right: 20px;
+  width: 30%;
+  max-width: 300%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@keyframes moveLeftToRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100vw);
+  }
+}
+
+.discount {
+  text-align: top;
+  background-color: none;
+  color: red;
+  position: fixed;
+  animation: moveLeftToRight 10s linear infinite;
+  padding-bottom: 0.5%;
+  padding-top: 0%;
+}
+
+.header-content {
+  display: flex-box;
+  align-items: centre;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 1%;
+  padding-top: 5%;
+  display: flex;
+  vertical-align: bottom;
+  padding-right: 150px;
+}
+
+.textinnavlinks {
+  color: #070000;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav ul li {
+  margin-right: 15px;
+  vertical-align: bottom;
+}
+
+section {
+  margin: 20px 0;
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+#menu {
+  position: absolute;
+  margin-right: 15px;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  padding-top: 0.5%;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  padding-bottom: 0.5%;
+  border: 3px solid red;
+  border-radius: 2px;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #e70e0e;
+  margin: 2px 0;
+  transition: 0.4s;
+  border: #e70e0e;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-underline-position: above;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+nav a:hover {
+  color: #001f3f;
+}
+
+#content-container {
+  transition: margin-right 0.5s;
+}
+
+#mobile-menu.show ~ #content-container {
+  margin-right: 15%;
+}
+
+.link-heading {
+  color: black;
+  text-size-adjust: 5pm;
+  text-align: center;
+}
+
+header {
+  padding-top: 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1%;
+}
+
+footer {
+  text-align: center;
+  background-color: #e70e0e;
+}
+
+.footer-text {
+  padding: 2%;
+}
+
+.body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slide-show-image {
+  width: 2000px;
+  max-width: 2000px;
+  max-height: 600px;
+}
+
+.welcome {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  padding-top: 1%;
+  padding-left: 12%;
+  padding-bottom: 0%;
+}
+
+.welcomelogo {
+  margin-right: 20px;
+  width: 10%;
+  height: auto;
+  break-inside: auto;
+  padding-right: 1%;
+}
+
+.welcometext {
+  max-width: 190%;
+  margin-right: 30%;
+}
+
+.reviews {
+  display: flex;
+  padding-top: 0%;
+  padding-bottom: 2%;
+}
+
+.reviews img {
+  margin-right: 10px;
+  height: 100px;
+}
+
+.google {
+  padding-left: 20%;
+}
+
+#shopify {
+  height: 80px;
+}
+
+.services h1 {
+  text-align: center;
+  color: #ddd;
+  background-image: URL(background-red.jpg);
+  background-position: 50%;
+  padding: 0.5%;
+}
+
+.services-section {
+  margin: 50px auto;
+  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.service {
+  flex: 0 0 calc(30% - 20px);
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid transparent;
+  transition: border-color 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 70%;
+}
+
+.service img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.service h2 {
+  color: #e70e0e;
+  margin-bottom: 10px;
+}
+
+.service p {
+  color: #000;
+}
+
+.see-all-button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #e70e0e;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.see-all-button:hover {
+  background-color: #1e43d8;
+  text-decoration-color: #ddd;
+  color: #f7f2f2;
+}
+
+.service:hover {
+  border-color: #e70e0e;
+  transform: translateY(-5px);
+}
+
+.onestop h2 {
+  padding: 2%;
+  background-image: url(onestop.jpg);
+  background-attachment: scroll;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  text-decoration: solid;
+  text-transform: capitalize;
+  color: rgb(162, 201, 235);
+}
+
+.flex {
+  align-content: center;
+}
+
+.flex1 {
+  max-width: fit-content;
+  width: 100%;
+  height: auto;
+}
+
+.flex2 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: fit-content;
+  width: 90%;
+  height: auto;
+}
+
+.onestop {
+  align-content: center;
+}
+.onestop img {
+  padding-left: 8%;
+  display: flex;
+  box-sizing: border-box;
+  max-width: fit-content;
+  width: 90%;
+  height: auto;
+}
+
+.stats {
+  display: flex;
+  box-sizing: border-box;
+  max-width: fit-content;
+  width: 100%;
+  height: auto;
+}
+
+.footer-container {
+  background-color: #c81010;
+  color: rgb(250, 247, 247);
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-logo img {
+  max-width: 15%;
+}
+
+.footer-info p {
+  margin: 8px 0;
+}
+
+.footer-social a {
+  margin: 0 1%;
+}
+
+.footer-social {
+  display: flexbox;
+}
+
+.footer-social img {
+  width: 30px;
+  height: 30px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.chatbox-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.chatbox-icon img {
+  width: 50px;
+  height: auto;
+}
+
+.chatbox-icon:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(-5px);
+  border: #c81010;
+}
+
+body {
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+.header-content,
+.welcome,
+.reviews,
+.services,
+.services-section,
+.onestop,
+.stats,
+.footer-text {
+  animation: fadeIn 1s ease-in-out forwards;
+}
+

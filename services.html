@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="services-style.css">
+    <title>Services | ERS Tech</title>
+    <script src="func_service.js"></script>
+</head>
+<body>
+
+<header>
+    <div class="head_photo">
+        <img src="logo.png" alt="Company Logo" class="logo">
+    </div>
+    <div class="navigational-container">
+        <nav>
+            <ul>
+                <li><a class="textinnavlinks" href="/Homepage(index)/index.html">Home</a></li>
+                <li><a class="textinnavlinks" href="/About/About.html">About</a></li>
+                <li><a class="textinnavlinks" href="services.html">Services</a></li>
+                <li><a class="textinnavlinks" href="/Contact/contact.html">Contact</a></li>
+                <li><a class="textinnavlinks" href="/Login_Page/login.html">Login</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div class="services-container">
+    <div class="service" onclick="redirectToService('app-development.html')">
+        
+        <img src="Mobiledev.jpg" alt="App Development" class="appdev">
+        
+        <h2>App Development</h2>
+        <p>Turn your ideas into powerful mobile applications with our expert app development services. Our skilled developers create custom, scalable solutions for iOS, Android, or both platforms. From concept to deployment, we prioritize user experience, functionality, and innovation. Let us bring your app vision to life and make a lasting impact in the digital landscape.</p>
+        
+        <button class="book-appointment-btn" onclick="bookAppointment(this)">Book Appointment</button>
+    </div>
+    
+    <div class="service" onclick="redirectToService('management-software.html')">
+        
+        <img src="/Homepage(index)/Mangement_soft.jpg" alt="Management Software">
+        
+        <h2>Management Software</h2>
+        <p>Optimize your business processes with our comprehensive management software solutions. Our tailored systems empower you to efficiently handle tasks such as project management, inventory control, and customer relationship management (CRM). From intuitive user interfaces to robust functionality, our management software is designed to enhance productivity, improve data accuracy, and streamline your daily operations. Discover the benefits of a customized management solution that aligns perfectly with your business needs.</p>
+        
+        <button class="book-appointment-btn" onclick="bookAppointment(this)">Book Appointment</button>
+    </div>
+    
+    <div class="service" onclick="redirectToService('web-development.html')">
+        
+        <img src="Webdev.jpg" alt="Web Development">
+        
+        <h2>Web Development</h2>
+        <p>Elevate your online presence with our professional web development services. We specialize in creating dynamic and visually stunning websites that captivate your audience. Our team of experienced developers utilizes the latest technologies to ensure your website is not only aesthetically pleasing but also functional and user-friendly. Whether you need a corporate website, e-commerce platform, or a custom web application, we have the expertise to bring your vision to life. Enhance your digital footprint and stay ahead in the competitive online landscape with our top-notch web development solutions.</p>
+        
+        <button class="book-appointment-btn" onclick="bookAppointment(this)">Book Appointment</button>
+    </div>
+    
+    <div class="service" onclick="redirectToService('seo.html')">
+        
+        <img src="/Homepage(index)/SEO.jpg" alt="SEO">
+        
+        <h2>SEO</h2>
+        <p>Boost your online visibility and drive organic traffic to your website with our strategic SEO services. Our team of SEO experts employs proven techniques to optimize your website for search engines, ensuring higher rankings and increased exposure. From keyword research and on-page optimization to link building and content strategy, we tailor our approach to meet your business goals. Stay ahead of the competition and reach your target audience effectively with our comprehensive SEO solutions. Let us optimize your online presence and unlock the full potential of your digital marketing efforts.</p>
+        
+        <button class="book-appointment-btn" onclick="bookAppointment(this)">Book Appointment</button>
+    </div>
+    
+    <div class="service" onclick="redirectToService('service5.html')">
+        
+        <img src="Blockchain.jpg" alt="Service 5">
+        
+        <h2>Blockchain Maintenance</h2>
+        <p>Ensure the reliability and efficiency of your blockchain infrastructure with our expert maintenance services. We specialize in the continuous monitoring, updates, and optimization of your blockchain network. From security audits to performance enhancements, our dedicated team ensures that your blockchain stays secure, scalable, and up-to-date. Trust us to handle the technical intricacies, allowing you to focus on leveraging the power of blockchain technology for your business success.</p>
+        
+        <button class="book-appointment-btn" onclick="bookAppointment(this)">Book Appointment</button>
+    </div>
+    
+    <div class="service" onclick="redirectToService('service6.html')">
+        
+        <img src="cyst.jpg" alt="Service 6">
+        
+        <h2>Cybersecurity Solutions</h2>
+        <p>Guard your digital assets with our robust cybersecurity solutions. We offer comprehensive protection against cyber threats, including malware, phishing attacks, and data breaches. Our expert team implements cutting-edge technologies and practices to fortify your digital infrastructure. From risk assessments to real-time monitoring, we tailor our solutions to safeguard your business, sensitive data, and customer trust. Stay ahead of evolving threats with our proactive cybersecurity measures.</p>
+        
+        <button class="book-appointment-btn" onclick="bookAppointment(this)">Book Appointment</button>
+    </div>
+
+</div>
+
+<footer>
+    <div class="Copyright">
+        <p class="footer-text">&copy; 2023 Your Company Name. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>
